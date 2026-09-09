@@ -1,4 +1,4 @@
-# Indic-Token-izer
+# Tokenizer-Indic
 
 A balanced **Byte-Pair Encoding (BPE)** tokenizer trained for **Indic + English** Wikipedia text with faithful markdown preservation. Designed for equitable fertility across 4 languages while maintaining a compact 10k vocabulary.
 
@@ -211,7 +211,7 @@ def faithful_units(text: str) -> int:
 If you use this tokenizer, please cite:
 
 ```
-Indic-Token-izer — BPE 10k, wiki_faithful_markdown variant
+Tokenizer-Indic — BPE 10k, wiki_faithful_markdown variant
 Languages: en, hi, te, ta | Vocab: 10000 | Weights en:2 hi:3 te:6 ta:3
 https://github.com/TharunSivamani/Indic-Token-izer
 ```
