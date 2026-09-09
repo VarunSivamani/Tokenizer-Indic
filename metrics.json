@@ -1,0 +1,37 @@
+{
+  "variant": "wiki_faithful_markdown",
+  "languages": {
+    "en": "English",
+    "hi": "Hindi",
+    "te": "Telugu",
+    "ta": "Tamil"
+  },
+  "weights": {
+    "en": 2,
+    "hi": 3,
+    "te": 6,
+    "ta": 3
+  },
+  "vocab_size": 10000,
+  "faithful_units": {
+    "en": 186426,
+    "hi": 88359,
+    "te": 36293,
+    "ta": 185869
+  },
+  "unit_policy": "Counts each contiguous Unicode letter/mark/number run as one unit and each visible non-space punctuation/symbol character as one unit.",
+  "token_counts": {
+    "en": 122437,
+    "hi": 59203,
+    "te": 23589,
+    "ta": 122822
+  },
+  "ratios": {
+    "en": 0.6567592503191615,
+    "hi": 0.6700279541416267,
+    "te": 0.649960047392059,
+    "ta": 0.6607987345926432
+  },
+  "spread": 0.02006790674956771,
+  "score": 49830.80759140668
+}
